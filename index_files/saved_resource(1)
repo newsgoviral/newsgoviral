@@ -1,0 +1,156 @@
+var ADFMediaURLs='';
+var ADF_clickTag='https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CeDX8QDnWX67KKJLE7_UPnd-GiAedwrvGYOOU5sT7DPAuEAEghq3BR2DL3LQFyAEJqAMBqgTbAU_QDtHT4wYoJUHMLFHFxY41bqL0OxyrzH_knk4F4gCtJ98zokyTgWb6vVg0xIalBWnGOc_HmSz0Esx6B1wRCXZJ23s_phnpI1vtxCOZL81HSugUM2EEYosDuU2_HlDusdYaLq6spYGtum-MksCWQt8ObRQRJWD9v56oRfdHufakMs2F4mzdKndRQCpC2Rnx-kRDfQSisWpUrVIod1V5QJukv9VMPphG7-2gukJKFdr1Zyy81s5clbdMO-w13KzDz8yWNFjCK-cERHD0i_J29lc1jRzsCrYvzZaTFsAEw4XY76wD4AQDkAYBoAZNgAfI8LSkAogHAZAHAqgH1ckbqAfw2RuoB_LZG6gHlJixAqgHpd8bqAeOzhuoB5PYG6gHugaoB-zVG6gH7paxAqgHpr4bqAfs1RuoB_PRG6gHltgb2AcA0ggGCAAQAhgagAoBmAsByAsBgAwBsBPTqJwK0BMA2BMDiBQB2BQB&num=1&cid=CAMSeQClSFh3-RsxzkpO3UeSKFiqQGhPlPkuRyjz_yusvw7qAnFX9FwECBdrCJceC4-DKcLF0DBPjotfskykweViTIfydRFT724H-dwelkPjptUaM7JLuHeCZXK6bFxX4L7M45Cim0qD23UNGbnmt1Q4ay_kE8ixrQz_YVQ&sig=AOD64_0m8mQSapFA7GK_I6aaTW7bcE1QBQ&client=ca-pub-4298107465265303&dbm_c=AKAmf-CTQtJNDnUcccPtSk6CLiy-vNO1j1cRUqze2FmKZFqqldOf7IOQD-Zxz9NbaGLfu5Fu4ipILvqZYRougtfXYHbIAlRw2Lqsx2HVZWjz4ZLoM6WNZJJ2Yhq31MueihmwWVrtLRkTnN5uOlpCdikosOSpFbaQFA&cry=1&dbm_d=AKAmf-Ak7A717G-860uWWNtNALk_5dCDFIPtaW9RDmgbyn1v7ssMVgdcf4FRFIBwdUZzw-dRqvS6rCebj3gWDMPSQLCKlS-mRI5HySgHm8apvzzv14RjBjcK5mlMc2YxY-LqXnZXjV1PY4mYeRMvhXt2XMU-zI2-fLCx4JXFgqB5vzar6gzz7SQbiukFK5beFTHvcWMWmBNc5JdjECr6CjNK7bE_MpCYLlq_tNfuxFP8vKFjFfslZeWZQyVaGwWbk7XAbE1KYAfLfRBIlRxS_-mZwookaHj4LR2Bt66FcsJq0q7azT_bSNC-fTtxYSg2oUKBJRKREQuXHWNjXrSDHrG_P37I8no7SibnxJRJqlqXYALM7Fz-aVItcnQIRx17p6wNAT4KYFMTpwGCwEZK_bDDPLpelHMCDrWOmEy5hX--TQ5Mug5OT2xTnpaYwozxZjcspJhakUQO&adurl=https://track.adform.net/C/?bn=42682987;adfibeg=0;cdata=SZAizkZDWrh_qyLQOALZ9PAo4Nmn9W_cZyK8w-lukSUOG41XfN_xRCvZhEBkHI_cz07RrEi-wP97bdp-DsExYsX4De8FoXoTrERlEyRrT7s9T8HexCyoInMY0gC-6O6X7oAs_uQvr9EkdtRgfCsY-w2;;CREFURL=https%3a%2f%2fjavedch.com';
+var ADF_ClickEvent='';
+var ADFtagID='1x';
+var ADFafbanID='42682987';
+var FlashObjectID='FlashID1x';
+var ADFDomain='https://s2.adform.net/Banners/';
+var ADFDomainCDN='https://files.adform.net/Banners/';
+var ADFVideoCDN='rtmp://s1yx966tga68s8.cloudfront.net/cfx/st/';
+var ADFVideoCDNList=['rtmp://s1yx966tga68s8.cloudfront.net/cfx/st/'];
+var ADFBanVer='1281';
+var ADFBanVerBak='0';
+var ADFbu=false;
+var ADFerrTimeout = 15*24*60*60*1000;
+var ADFTemplateVersion;
+var ADFClientSiteId;
+var ADFTemplateId;
+var ADFGroupId;
+var ADFbanID='42556088';
+var ADFmembID='2757236';
+var ADFcmpgnID='2238847';
+var ADFassetID='0';
+var ADFbanPlacID='7117289';
+var ADFUnloadID='8506113782023159822';
+var ADFGeoData='7769;25878;586';
+var Adform=window.Adform;if(!Adform&&_adfq)_adfq.push(["require",["Adform"],function(adform){Adform=window.Adform=adform}]);Adform=Adform||{};
+Adform.cache="620";
+Adform.locationInfo={Country: 'Pakistan', Region: 'Punjab', City: 'Lahore', Latitude: '31.486275', Longitude: '74.397896'};
+
+(function () {
+try{
+var i = Adform.ADFBannerUtils.getInstance()
+i.addBannerAttribute("1x", "bn", 42682987);
+i.addBannerAttribute("1x", "rotseqno", "1");
+i.addBannerAttribute("1x", "cookieID", "6038384838214324443");
+i.addBannerAttribute("1x", "smid", "0");
+i.addBannerAttribute("1x", "unloadID", "8506113782023159822");
+i.addBannerAttribute("1x", "height", 250);
+i.addBannerAttribute("1x", "width", 970);
+i.addBannerAttribute("1x", "pm", "2238847");
+i.addBannerAttribute("1x", "visibilityArea", [50]);
+i.addBannerAttribute("1x", "visibilityTime", [1]);
+i.addBannerAttribute("1x", "ms", "2757236");
+i.addBannerAttribute("1x", "ban", "42556088");
+i.addBannerAttribute("1x", "serverTime", 1607875266790);
+i.addBannerAttribute("1x", "bannerVersion", "1281");
+i.addBannerAttribute("1x", "csImpressionUrl", "https://track.adform.net/csimpr/?bn=42682987&csi=8z0ZRrQnvsVS7OaXwq6kxxInjG-pDco_z6-WlRlDhx4JDwKV3Zer3J0WkpRPIfSl8-pKBESjO2mMo9zsrGv1JfLvErD9xNSG0");
+i.addBannerAttribute("1x", "eData", "8z0ZRrQnvsVogLrC_DAjPYWsuk28wKG6YaJU2uM20NlIqv53yRJxmbRQpGr4-VaKm551751V-rgDvP-67D9Y4w2");
+i.addBannerAttribute("1x", "uData", "Sh5m-oxDhzWsRGUTJGtPuz1Pwd7ELKgicxjSAL7o7pfugCz-5C-v0VhjhKHht8G20");
+i.addBannerAttribute("1x", "trackingSetupId", "1982978");
+i.addBannerAttribute("1x", "bnpl", "7117289");
+i.addBannerAttribute("1x", "sendUnloadData", 1);
+i.addBannerAttribute("1x", "unloadScriptVersion", 13);
+i.addBannerAttribute("1x", "isEventsEnabled", 1);
+i.setBannerRegisteredStatus("1x");
+}catch(e){}
+})();
+
+
+
+<!--
+var ADFtagid1938337318 = (typeof(ADFafbanID)!="undefined") ? ADFafbanID : 0;
+var ADFclickTagString1938337318 = (typeof(ADF_clickTag)!="undefined") ? escape(ADF_clickTag) : escape('https://track.adform.net/C/?bn='+ADFtagid1938337318);
+var ADFclickTagParameters1938337318 = (typeof(ADF_clickTagPars)!="undefined") ? escape(ADF_clickTagPars) : '';
+var ADFclickEventString = (typeof(ADF_ClickEvent) != "undefined") ? escape(ADF_ClickEvent) : escape('https://track.adform.net/C/?bn='+ADFtagid1938337318+';bsqno=1;li=1;cset=');
+var FlashObjectID=(typeof(FlashObjectID)!="undefined") ? FlashObjectID : 'adftest';
+var ADFDomain=(typeof(ADFDomain)!="undefined") ? ADFDomain : '';
+var ADFDomainCDN=(typeof(ADFDomainCDN)!="undefined") ? ADFDomainCDN : '';
+var ADFVideoCDN=(typeof(ADFVideoCDN)!="undefined") ? ADFVideoCDN : '';
+var ADFClientSiteId=(typeof(ADFClientSiteId)!="undefined") ? ADFClientSiteId : '';
+var ADFTemplateVersion=(typeof(ADFTemplateVersion)!="undefined") ? ADFTemplateVersion : '1938337318';
+var ADFTemplateId=(typeof(ADFTemplateId)!="undefined") ? ADFTemplateId : '';
+var ADFGroupId=(typeof(ADFGroupId)!="undefined") ? ADFGroupId : '';
+var ADFGeoData=(typeof ADFGeoData != "undefined" || ADFGeoData != null) ? ADFGeoData : '0;0;0';
+var ADFBanVer=(typeof(ADFBanVer)!="undefined") ? ADFBanVer : '1938337318';
+var ADFBanVerBak=(typeof(ADFBanVerBak)!="undefined") ? ADFBanVerBak : '1938337318';
+var ADFtagID=(typeof(ADFtagID)!="undefined") ? ADFtagID : '1x';
+if (typeof(ADFbu)=="undefined") ADFbu=false;
+
+var ADFcmpgnID = (typeof(ADFcmpgnID) != "undefined") ? ADFcmpgnID : '0';
+var ADFmembID = (typeof(ADFmembID) != "undefined") ? ADFmembID : '0';
+var ADFbanID = (typeof(ADFbanID) != "undefined") ? ADFbanID : '0';
+var ADFbanPlacID = (typeof(ADFbanPlacID) != "undefined") ? ADFbanPlacID : '0';
+var ADFUnloadID = (typeof(ADFUnloadID) != "undefined") ? ADFUnloadID : '0';
+
+
+var ADFclickTagVariables1938337318 = 'clickTAG='+ADFclickTagString1938337318+';C=1'+ADFclickTagParameters1938337318+'';
+if (ADFMediaURLs) ADFclickTagVariables1938337318 = ADFMediaURLs;
+
+
+
+if(typeof Adform == "undefined") {var Adform = {};};
+Adform.BannerData                    = {};
+Adform.Data                          = Adform.BannerData;
+Adform.RMBData                       = Adform.BannerData;
+Adform.RMBData.type                  = 'standard';
+Adform.RMBData.subtype               = 'rmb';
+Adform.BannerData.timestamp          = '202012111608033038'; // std @timestamp@ rev. @version@
+Adform.BannerData.ADFFlash           =  ADFDomain +'Elements/Files/2062887/9027898/main/9027898.js?ADFassetID=9027898&bv='+ADFBanVer;
+
+Adform.BannerData.width              = "970";
+Adform.BannerData.height             = "250";
+Adform.BannerData.ADFid              = ADFtagID;
+Adform.BannerData.ADFban             = (typeof(ADFafbanID)!="undefined") ? ADFafbanID : 0;
+Adform.BannerData.wmode              = "opaque";
+Adform.RMBData.landingPageTarget     = "_blank";
+Adform.BannerData.quality            = "Autohigh";
+Adform.BannerData.bannerAlign        = "";
+Adform.BannerData.clicktags          = 'cid='+ADFClientSiteId+'&geo='+ADFGeoData+'&gid='+ADFGroupId+'&tv='+ADFTemplateVersion+'&tid='+ADFTemplateId+'&domain='+ ADFDomain +'&bv='+ADFBanVer+'&ADFid='+ADFtagID+'&'+ADFclickTagVariables1938337318+'';
+Adform.BannerData.clicktags         += '&ADFcmpgnID='+ADFcmpgnID+'&ADFmembID='+ADFmembID+'&ADFbanID='+ADFbanID+'&ADFbanPlacID='+ADFbanPlacID+'&unloadID='+ADFUnloadID;
+Adform.BannerData.clicktags         += "&bn="+ADFtagid1938337318;
+Adform.BannerData.clicktags         += "&wmode=opaque";
+Adform.BannerData.clicktags         += "&evtBaseLink="+ADFclickEventString;
+
+Adform.BannerData.clicktags         += "&settingsXML=" +  ADFDomain + ADFbanID  + "/settings.xml?bv="+ADFBanVer;
+Adform.BannerData.clicktags         += "&ADFDomain=" + ( ADFDomain ).replace(/\/$/, "");
+
+
+Adform.BannerData.streamingVideo = 0;
+var VideoCDN = (Adform.BannerData.streamingVideo) ? (ADFVideoCDN || ADFDomainCDN) : ADFDomainCDN;
+
+Adform.BannerData.clicktags         += "&ADFDomainCDN=" + VideoCDN.replace(/\/$/, "");
+
+Adform.BannerData.clicktags         += "&autoPlay=" + Boolean(1);
+Adform.BannerData.clicktags         += "&loopVideo=" + Boolean(1);
+Adform.BannerData.clicktags         += "&soundOn=" + Boolean(0);
+Adform.BannerData.clicktags         += "&isStreaming=" + Boolean(Adform.BannerData.streamingVideo);
+if (Adform.BannerData.streamingVideo) Adform.BannerData.clicktags += "&detectBW=" + Boolean(0);
+
+if (typeof ADFVideoCDNList != "undefined") {
+	Adform.BannerData.clicktags         += "&videoCDNs=" + ADFVideoCDNList.join('|');
+}
+
+
+
+Adform.BannerData.videoSources = [{"id":1,"file":"Stream/2062887/qxkiql0fsdj/hd lr 2.mp4","mime":"video/mp4","codecs":"avc1.640033, mp4a.40.2","external":"0","isStreaming":true},{"id":2,"file":"Elements/Files/2062887/9027900.jpg","external":"0","isStreaming":false},{"id":3,"file":"Elements/Files/2062887/9027901.png","external":"0","isStreaming":false}];
+
+Adform.RMBData.css =  ADFDomain  + "scripts/assets/css/Adform.RMB.css?bv="+ADFBanVer;
+
+
+
+
+
+
+
+Adform.BannerList = Adform.BannerList || [];
+Adform.BannerList.push(Adform.BannerData);
+
+if (!Adform.RMB || !Adform.RMB.AdConstructor) {
+	// Load constructor script
+	document.write('<scr' + 'ipt type="text/javascript" src="'+ ADFDomain +'scripts/rmb/Adform.RMB.js?bv='+ Adform.cache +'"></scr' + 'ipt>');
+} else {
+	// Run loaded constructor
+	Adform.RMB.AdConstructor.build();
+}
+//-->
